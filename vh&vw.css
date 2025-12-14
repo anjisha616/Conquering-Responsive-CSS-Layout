@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.hero{
+    background-color: rgb(3, 31, 31);
+    color: white;
+    padding: 5em 0;
+   width: 100vw;
+}
+.col img{
+    max-width: 50vw;
+    height: auto;
+    box-shadow: 3px 3px 25px 3px rgb(233, 223, 223);
+}
+.col h1{
+    font-size: 8vw;
+}
+.col p{
+    padding-top: 2rem;
+    font-size:4vh;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(10, 10, 43);
+    color: white;
+    padding: 1rem;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.grid{
+    display: flex;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+}
