@@ -6,14 +6,18 @@
 .hero{
     background-color: #23424A;
     color: white;
-    width: 80%;
+    width: 100%;
     padding: 100px 0;
+    display: flex;
 }
 .content{
-    width: 60%;
+    width: 80%;
     max-width: 950px;
     margin: 0 auto;
+display: flex;
+ align-items: flex-start;
 }
+
 .content h1{
 font-size: 48px;
 font-family: Roboto Black ;
@@ -34,4 +38,27 @@ font-family: Roboto Black ;
     color: black;
     padding: .75em 2em;
     border-radius: 30px;
+}
+.hero-img{
+    width: 60%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+.col
+{
+    margin: 2rem;
+width: 100%;
+}
+.col h2{
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #87629A;
+}
+.col p{
+    text-align: center;
 }
