@@ -6,6 +6,9 @@
 img{
   max-width: 100%;
 }
+body{
+    border: 5px solid black;
+}
 .hero{
     background-color: #23424A;
     color: white;
@@ -20,6 +23,17 @@ img{
 display: flex;
  align-items: flex-start;
 }
+.btn{
+    display: inline-block;
+    font-size: 21px;
+    font-family: Roboto Bold;
+    text-decoration: none;
+    background-color: #38CFD9;
+    color: black;
+    padding: .75em 2em;
+    border-radius: 30px;
+}
+
 
 .content h1{
 font-size: 48px;
@@ -32,37 +46,41 @@ font-family: Roboto Black ;
         padding-top: 15px;
         color: #a4c8ca;
 }
-.content a{
-    display: inline-block;
-    font-size: 21px;
-    font-family: Roboto Bold;
-    text-decoration: none;
-    background-color: #38CFD9;
-    color: black;
-    padding: .75em 2em;
-    border-radius: 30px;
-}
+
 .hero-img {
     align-items: flex-start;
 }
-
-
 .row{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     padding: 2rem;
+}
+
+.main{
+    gap: 10%;
+}
+.content1 h1{
+color: #136C72;
+font-size: 50px;
+}
+.content1{
+width: 62%;
+}
+.para{
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+.content2{
+    background-color: #136C72;
+    color: white;
+    text-align: center;
+    width: 50%;
+    
 }
 .col
 {
-    margin: 2rem;
-width: 100%;
-}
-.col h2{
-    font-weight: 700;
-    padding-bottom: 30px;
-    text-align: center;
-    color: #87629A;
-}
-.col p{
-    text-align: center;
+    color: white;
+    padding: 3rem;
 }
